@@ -2,9 +2,9 @@ let express = require('express');
 let app = express();
 
 app.get('/', (req, res)=> {
- res.send('Hello world');
+ res.send('This is an API landing page.');
 });
 
-app.listen(3000, ()=>{
-    console.log('Listening on port 3000');
+app.listen(3001, ()=>{
+    console.log('Listening on port 3001...');
 });
